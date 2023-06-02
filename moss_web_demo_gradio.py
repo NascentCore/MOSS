@@ -19,7 +19,7 @@ logger.setLevel("ERROR")
 warnings.filterwarnings("ignore")
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--model_name", default="fnlp/moss-moon-003-sft-int4", 
+parser.add_argument("--model_name", default="../model/moss-moon-003-sft", 
                     choices=["fnlp/moss-moon-003-sft", 
                              "fnlp/moss-moon-003-sft-int8", 
                              "fnlp/moss-moon-003-sft-int4"], type=str)

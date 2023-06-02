@@ -14,9 +14,9 @@ from models.tokenization_moss import MossTokenizer
 from utils import StopWordsCriteria
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--model_name", default="fnlp/moss-moon-003-sft-int4", 
-                    choices=["fnlp/moss-moon-003-sft", 
-                             "fnlp/moss-moon-003-sft-int8", 
+parser.add_argument("--model_name", default="../model/moss-moon-003-sft-int8", 
+                    choices=["../model/moss-moon-003-sft", 
+                             "../model/moss-moon-003-sft-int8", 
                              "fnlp/moss-moon-003-sft-int4"], type=str)
 parser.add_argument("--gpu", default="0", type=str)
 args = parser.parse_args()
