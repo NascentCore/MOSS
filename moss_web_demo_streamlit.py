@@ -13,12 +13,13 @@ from models.modeling_moss import MossForCausalLM
 from models.tokenization_moss import MossTokenizer
 from utils import StopWordsCriteria
 
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--model_name", default="../model/moss-moon-003-sft-int8", 
                     choices=["../model/moss-moon-003-sft", 
                              "../model/moss-moon-003-sft-int8", 
                              "fnlp/moss-moon-003-sft-int4"], type=str)
-parser.add_argument("--gpu", default="0", type=str)
+parser.add_argument("--gpu", default="1", type=str)
 args = parser.parse_args()
 
 os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
