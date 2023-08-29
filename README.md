@@ -1,4 +1,7 @@
 # MOSS
+
+文档位于：https://tricorder.feishu.cn/wiki/I3NJwa1HgivzAEkypjrcQMRQnnd
+
 <p align="center" width="100%">
 <a href="https://txsun1997.github.io/blogs/moss.html" target="_blank"><img src="https://txsun1997.github.io/images/moss.png" alt="MOSS" style="width: 50%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
